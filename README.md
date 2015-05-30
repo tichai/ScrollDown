@@ -22,25 +22,7 @@ Use `class="scroll"` to call the ScrollDown styles.
 
 ## Move to top
 
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-			var defaults = {
-			containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear' 
-			};
-			*/
-										
-			$().UItoTop({ easingType: 'easeOutQuart' });
-										
-		});
-	</script>
-	
-	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"></span></a>
-	
 Add the `toTop` segment before the toTop button.
 
-Add `id=toTop` in `<a>` for link and add `id=toTopHover` in `<span>` to show the to top button.
+Add `calss=toTop` in `<a>` for link to scroll to top.
 
